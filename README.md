@@ -11,8 +11,6 @@ Batch download YouTube videos and convert them to high-quality MP3 files with me
 
 </div>
 
----
-
 ## Requirements
 
 ### Install FFmpeg
@@ -27,10 +25,8 @@ winget install Gyan.FFmpeg
 winget install yt-dlp.yt-dlp
 ```
 
----
-
 ## Usage
 
-1. Add YouTube links to `links.txt`
+1. Add YouTube links to `links.txt` (one link per line)
 2. Run the `.bat` script
 3. Your MP3 files will be generated automatically
