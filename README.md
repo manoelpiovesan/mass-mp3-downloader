@@ -30,3 +30,8 @@ winget install yt-dlp.yt-dlp
 1. Add YouTube links to `links.txt` (one link per line)
 2. Run the `.bat` script
 3. Your MP3 files will be generated automatically
+
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
