@@ -7,7 +7,7 @@
 ![yt--dlp](https://img.shields.io/badge/yt--dlp-required-red?logo=youtube)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Batch download YouTube videos and convert them to high-quality MP3 files with metadata and thumbnails.
+Batch download YouTube videos or SoundCloud tracks and convert them to high-quality MP3 files with metadata and thumbnails.
 
 </div>
 
