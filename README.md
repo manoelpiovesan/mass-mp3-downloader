@@ -9,6 +9,10 @@
 
 Batch download YouTube videos or SoundCloud tracks and convert them to high-quality MP3 files with metadata and thumbnails.
 
+[Requirements](#requirements) •
+[Usage](#usage)
+[Contributing](#contributing)
+
 </div>
 
 ## Requirements
