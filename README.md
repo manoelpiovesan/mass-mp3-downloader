@@ -1,6 +1,6 @@
 <div align="center">
-
-# Mass YouTube Downloader
+ 
+# Mass YouTube & SoundCloud Downloader
 
 ![Windows](https://img.shields.io/badge/Windows-10%2B-blue?logo=windows)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-required-orange)
