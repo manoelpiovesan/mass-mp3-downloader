@@ -1,0 +1,33 @@
+name: Publish executable on release
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  build-and-upload:
+    if: github.event.release.target_commitish == 'main'
+    runs-on: windows-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build dependency
+        run: pip install pyinstaller
+
+      - name: Build executable
+        run: pyinstaller --noconfirm --onefile --windowed --name mass-mp3-downloader downloader_ui.py
+
+      - name: Upload .exe to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/mass-mp3-downloader.exe

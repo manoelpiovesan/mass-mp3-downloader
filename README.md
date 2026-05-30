@@ -31,6 +31,24 @@ winget install yt-dlp.yt-dlp
 
 ## Usage
 
+### Friendly UI with Python
+
+Run:
+
+```bash
+python downloader_ui.py
+```
+
+Features:
+
+- Text input to paste URLs
+- List with all URLs added
+- Individual download progress per URL
+- Original detected quality (for example: `128 kbps`, `256 kbps`)
+- Output files saved in `downloads/`
+
+### Batch mode (.bat)
+
 1. Add YouTube links to `links.txt` (one link per line)
 2. Run the `.bat` script
 3. Your MP3 files will be generated automatically
